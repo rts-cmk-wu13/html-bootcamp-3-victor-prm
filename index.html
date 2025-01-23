@@ -9,20 +9,21 @@
 </head>
 
 <body>
-	<header>
+	<header aria-label="Hovednavigation">
 		<a href="/">Brians Ostebiks</a>
-		<button type="button" value="Menu" aria-label="Åben og luk navigationsmenu" aria-expanded="false" id="menu-button">Menu</button>
-		<nav>
+		<button type="button" value="Menu" aria-label="Åben og luk navigationsmenu" aria-expanded="false"
+			id="menu-button">Menu</button>
+		<nav aria-hidden="true">
 			<ul>
-				<li><a href="#!">Forside</a></li>
-				<li><a href="#!">Produkter</a></li>
-				<li><a href="#!">Historie</a></li>
-				<li><a href="#!">Kontakt</a></li>
+				<li><a href="#!" aria-label="Gå til forside" aria-current="page">Forside</a></li>
+				<li><a href="#!" aria-label="Gå til produkter"  aria-current="false">Produkter</a></li>
+				<li><a href="#!" aria-label="Gå til historie" aria-current="false">Historie</a></li>
+				<li><a href="#!" aria-label="Gå til kontakt" aria-current="false">Kontakt</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<main>
+	<main aria-label="Velkomst og tilbud">
 		<h1>Brians Ostebiks</h1>
 		<p>Velkommen til min lille forretning. Her kan du købe alverdens oste til fornuftige priser. Jeg elsker ost, og
 			derfor kan du være sikker på, at jeg kun har det allerbedste til dig.</p>
@@ -51,7 +52,7 @@
 		</article>
 	</main>
 
-	<footer>
+	<footer aria-label="Kontakt og link til sociale medier">
 		<address aria-label="Kontaktinfo for virksomheden">
 			<h4>Brians Ostebiks</h4>
 			<p>Camembert Boulevard 42</p>
